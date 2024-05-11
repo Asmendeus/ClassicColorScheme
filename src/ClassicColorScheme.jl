@@ -1,6 +1,7 @@
 module ClassicColorScheme
 #>  VSCode users are advised to use it with the plug-in `Color Highlight`
-    rgb(r::Int, g::Int ,b::Int) = ColorTypes.RGB(r/256, g/256, b/256)
+    using ColorTypes
+    rgb(r::Int, g::Int ,b::Int) = RGB(r/256, g/256, b/256)
 
     Tighnari = (rgb(036, 050, 088), rgb(040, 114, 070), rgb(177, 196, 077), rgb(231, 199, 054),
                 rgb(247, 191, 099), rgb(238, 176, 175), rgb(150, 052, 096), rgb(099, 031, 102),
