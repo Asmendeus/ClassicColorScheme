@@ -1,0 +1,2 @@
+# ClassicColorScheme
+ Classic Color Scheme
