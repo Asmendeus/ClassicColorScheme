@@ -1,7 +1,10 @@
 module ClassicColorScheme
-#>  VSCode users are advised to use it with the plug-in `Color Highlight`
     using ColorTypes
     rgb(r::Int, g::Int ,b::Int) = RGB(r/256, g/256, b/256)
+
+    IceFire = (rgb(128, 116, 200), rgb(120, 149, 193), rgb(168, 203, 223), rgb(214, 239, 244),
+               rgb(242, 250, 252), rgb(153, 034, 036), rgb(181, 071, 100), rgb(227, 098, 093),
+               rgb(239, 139, 103), rgb(240, 194, 132), rgb(245, 235, 174), rgb(247, 251, 201))
 
     Tighnari = (rgb(036, 050, 088), rgb(040, 114, 070), rgb(177, 196, 077), rgb(231, 199, 054),
                 rgb(247, 191, 099), rgb(238, 176, 175), rgb(150, 052, 096), rgb(099, 031, 102),
@@ -19,5 +22,11 @@ module ClassicColorScheme
 
     Rainbow2 = (rgb(242, 121, 112), rgb(187, 151, 039), rgb(084, 179, 069), rgb(050, 184, 151),
                 rgb(005, 185, 226), rgb(137, 131, 191), rgb(199, 109, 162))
+
+    EcoEnergy = (rgb(184, 219, 179), rgb(114, 176, 099), rgb(113, 154, 172),
+                 rgb(226, 145, 053), rgb(148, 198, 205), rgb(074, 095, 126))
+
+    Dusk = (rgb(141, 047, 037), rgb(078, 025, 069), rgb(203, 148, 117),
+            rgb(140, 191, 135), rgb(062, 096, 141), rgb(144, 146, 145))
 
 end # module ClassicColorScheme
