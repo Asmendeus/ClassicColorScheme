@@ -29,4 +29,7 @@ module ClassicColorScheme
     Dusk = (rgb(141, 047, 037), rgb(078, 025, 069), rgb(203, 148, 117),
             rgb(140, 191, 135), rgb(062, 096, 141), rgb(144, 146, 145))
 
+    Sigewinne = (rgb(081, 132, 178), rgb(170, 212, 248), rgb(242, 245, 250),
+                 rgb(241, 167, 181), rgb(213, 082, 118))
+
 end # module ClassicColorScheme
